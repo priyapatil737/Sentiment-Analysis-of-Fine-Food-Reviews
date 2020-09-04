@@ -15,7 +15,7 @@ st.markdown("This application is a Streamlit dashboard to analyze the sentiment 
 @st.cache(persist=True)
 
 def load_data():
-    df = pd.read_csv("https://easyupload.io/q04c2h")
+    df = pd.read_csv("/content/Reviews.csv")
    
     return df
 
