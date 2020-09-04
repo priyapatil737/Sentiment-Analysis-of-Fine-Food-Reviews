@@ -6,5 +6,4 @@ nltk
 plotly
 matplotlib
 wordcloud
-re
 string
